@@ -53,6 +53,7 @@ plugins=(virtualenv-prompt git command-not-found pip pyenv colored-man-pages doc
 
 # User configuration
 
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
