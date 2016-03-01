@@ -13,7 +13,7 @@ function _pyenv_prompt_info {
 	  echo "${ZSH_THEME_PYENV_PROMPT_PREFIX}$(pyenv_prompt_info)${ZSH_THEME_PYENV_PROMPT_SUFFIX}"
 }
 
-local left_ret_status="%(?:%{$fg_bold[green]%}➜:%{$fg_bold[red]%}❌%s)"
+local left_ret_status="%(?:%{$fg_bold[green]%}>:%{$fg_bold[red]%}>%s)"
 local time="%{$fg_bold[white]%}[%t]"
 
 PROMPT='${left_ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%~%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
